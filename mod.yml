@@ -57,7 +57,7 @@ assets:
     method: copy
     source:
     - name: Base.tim
-#Sora KH1 Cloths Cutscene DISABLED CUZ BUGGY
+#Sora KH1 Cloths Cutscene 
 - name: obj/H_EX790.mdlx
   method: binarc
   source:
@@ -104,6 +104,62 @@ assets:
     method: copy
     source:
     - name: Base.tim
+#Sora Mermaid Cutscene
+- name: obj/H_EX630.mdlx
+  method: binarc
+  source:
+  - name: h_ex
+    type: model
+    method: copy
+    source:
+    - name: SoraMermaidCS.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: SoraMermaid.bin
+#Sora Mermaid 
+- name: obj/P_LM100.mdlx
+  method: binarc
+  source:
+  - name: p_lm
+    type: model
+    method: copy
+    source:
+    - name: SoraMermaid.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: SoraMermaid.bin
+#Sora Lion 
+- name: obj/P_LK100.mdlx
+  method: binarc
+  source:
+  - name: p_lk
+    type: model
+    method: copy
+    source:
+    - name: SoraLion.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: SoraLion.bin
+#Sora Mermaid CS
+- name: obj/H_EX640.mdlx
+  method: binarc
+  source:
+  - name: h_ex
+    type: model
+    method: copy
+    source:
+    - name: SoraLionCS.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: SoraLion.bin
 #SORA
 - name: obj/ACTOR_SORA.mdlx
   multi: 
@@ -717,3 +773,25 @@ assets:
   method: copy
   source:
   - name: Textures\NoEDIT\-2.dds
+- name: remastered\obj\H_EX630.mdlx\-0.dds
+  multi: 
+  - name: remastered\obj\P_LM100.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Mermaid\Base.dds
+- name: remastered\obj\H_EX630.mdlx\-1.dds
+  multi: 
+  - name: remastered\obj\P_LM100.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Mermaid\Bottom.dds
+- name: remastered\obj\H_EX640.mdlx\-0.dds
+  method: copy
+  source:
+  - name: Textures\Lion\Base.dds
+- name: remastered\obj\P_LK100.mdlx\-0.dds
+  method: copy
+  source:
+  - name: Textures\Lion\Base.dds
